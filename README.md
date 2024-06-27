@@ -1,7 +1,7 @@
 # SimCE
 
 
-Implementation of the paper "SimCE: Simplifying Cross-Entropy Loss for Collaborative Filtering".
+Implementation of the paper "[SimCE: Simplifying Cross-Entropy Loss for Collaborative Filtering](https://arxiv.org/abs/2406.16170)".
 
 This work investigates the different loss functions in collaborative filtering (CF) from the perspective of  multiple negative sample. The proposed SimCE provides a new learning objective for CF-based recommender systems, which directly optimizes the hardest negative samples. A simple MF/LightGCN encoder optimizing this loss can achieve superior performance compared to other loss function. 
 
