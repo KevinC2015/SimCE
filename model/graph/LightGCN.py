@@ -4,7 +4,7 @@ from base.graph_recommender import GraphRecommender
 from util.conf import OptionConf
 from util.sampler import next_batch_pairwise
 from base.torch_interface import TorchGraphInterface
-from util.loss_torch import bpr_loss,l2_reg_loss, bpr_k_loss, ccl_loss, directau_loss, gbce_loss, simce_loss, ssm_loss
+from util.loss_torch import bpr_loss,l2_reg_loss, bpr_k_loss, ccl_loss, directau_loss,  simce_loss, ssm_loss
 import torch.nn.functional as F
 
 from util.args import get_params
